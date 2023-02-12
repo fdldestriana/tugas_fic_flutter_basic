@@ -1,5 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_form/fic_form_widget.dart';
+// import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_form/fic_form_widget.dart';
+// import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_layout/fic_aspectratio_widget.dart';
+// import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_layout/fic_center_widget.dart';
+// import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_layout/fic_column_widget.dart';
+// import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_layout/fic_expanded_widget.dart';
+// import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_layout/fic_gridview_widget.dart';
+// import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_layout/fic_listview_widget.dart';
+// import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_layout/fic_padding_widget.dart';
+// import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_layout/fic_row_widget.dart';
+// import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_layout/fic_sizedbox_widget.dart';
+// import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_layout/fic_stack_widget.dart';
+import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_layout/fic_wrap_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +26,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const FICFormWidget(),
+      home: FICWrapWidget(),
       // Scaffold(
       //   appBar: AppBar(
       //     title: const Text('Jago Flutter'),
