@@ -1,4 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:project_flutter_pertama/tugas/fic-ch4topic2/navigation/fic_tabbar_widget.dart';
+// import 'package:project_flutter_pertama/tugas/fic-ch4topic2/navigation/fic_sliver_widget.dart';
+// import 'package:project_flutter_pertama/tugas/fic-ch4topic2/navigation/fic_navigation_push.dart';
+// import 'package:project_flutter_pertama/tugas/fic-ch4topic2/navigation/fic_navigation_pop.dart';
+// import 'package:project_flutter_pertama/tugas/fic-ch4topic2/navigation/fic_drawer_widget.dart';
+// import 'package:project_flutter_pertama/tugas/fic-ch4topic2/navigation/fic_bottom_navbar_widget.dart';
+// import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_widget/fic_icon_widget.dart';
+// import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_widget/fic_image_widget.dart';
+// import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_widget/fic_scaffold_widget.dart';
+// import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_widget/fic_text_widget.dart';
 // import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_form/fic_form_widget.dart';
 // import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_layout/fic_aspectratio_widget.dart';
 // import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_layout/fic_center_widget.dart';
@@ -10,7 +20,10 @@ import 'package:flutter/material.dart';
 // import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_layout/fic_row_widget.dart';
 // import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_layout/fic_sizedbox_widget.dart';
 // import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_layout/fic_stack_widget.dart';
-import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_layout/fic_wrap_widget.dart';
+// import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_layout/fic_wrap_widget.dart';
+// import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_widget/fic_button_widget.dart';
+// import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_widget/fic_circle_avatar_widget.dart';
+// import 'package:project_flutter_pertama/tugas/fic-ch4topic2/basic_widget/fic_container_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,7 +39,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: FICWrapWidget(),
+      home: const FICTabbarWidget(),
       // Scaffold(
       //   appBar: AppBar(
       //     title: const Text('Jago Flutter'),
